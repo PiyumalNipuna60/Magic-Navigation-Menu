@@ -62,7 +62,7 @@ body{
     color: var(--clr);
 }
 
-.navigation ul li:hover a .icon{
+.navigation ul li:active a .icon{
     transform: translateY(-35px);
 }
 
@@ -77,7 +77,7 @@ body{
     transform: translateY(20px);
 }
 
-.navigation ul li:hover a .text{
+.navigation ul li:active a .text{
 
 opacity: 1;
 transform: translateY(10px);
