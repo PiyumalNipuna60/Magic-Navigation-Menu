@@ -16,3 +16,14 @@ body{
     min-height: 100vh;
     background: var(--clr);
 }
+
+.navigation{
+    position: relative;
+    height: 70px;
+    width: 400px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
