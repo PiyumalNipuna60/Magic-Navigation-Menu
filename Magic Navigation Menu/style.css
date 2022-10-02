@@ -27,3 +27,8 @@ body{
     align-items: center;
     border-radius: 10px;
 }
+
+.navigation ul{
+    display: flex;
+    width: 350px;
+}
