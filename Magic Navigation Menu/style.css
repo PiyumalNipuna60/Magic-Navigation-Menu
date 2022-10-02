@@ -73,5 +73,12 @@ body{
     font-size: 0.75em;
     letter-spacing: 0.05em;
     text-replace: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
+.navigation ul li:hover a .text{
+
+opacity: 1;
+transform: translateY(10px);
+}
