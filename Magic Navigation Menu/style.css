@@ -62,8 +62,8 @@ body{
     color: var(--clr);
 }
 
-.navigation ul li:active a .icon{
-    transform: translateY(-35px);
+.navigation ul li.active a .icon{
+    transform: translateY(-32px);
 }
 
 .navigation ul li a .text{
@@ -77,7 +77,7 @@ body{
     transform: translateY(20px);
 }
 
-.navigation ul li:active a .text{
+.navigation ul li.active a .text{
 
 opacity: 1;
 transform: translateY(10px);
@@ -85,10 +85,23 @@ transform: translateY(10px);
 
 .indicator{
     position: absolute;
+    top: -38px;
     width: 70px;
     height: 70px;
     background: #29fd53;
     border-radius: 50%;
     border: 6px solid var(--clr);
     transition: 0.5s;
+}
+
+.indicator::before{
+    content: '';
+    position: absolute;
+    top: 56%;
+    left: -21px;
+    width: 20px;
+    height: 20px;
+    /* background: red; */
+    border-top-right-radius: 20px;
+    box-shadow: 0 -10px 0 0 var(--clr);
 }
