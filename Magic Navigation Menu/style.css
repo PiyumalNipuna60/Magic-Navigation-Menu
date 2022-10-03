@@ -97,11 +97,23 @@ transform: translateY(10px);
 .indicator::before{
     content: '';
     position: absolute;
-    top: 56%;
+    top: 57%;
     left: -21px;
     width: 20px;
     height: 20px;
-    /* background: red; */
+     background: transparent;
     border-top-right-radius: 20px;
+    box-shadow: 0 -10px 0 0 var(--clr);
+}
+
+.indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+     background: transparent;
+    border-top-left-radius: 22px;
     box-shadow: 0 -10px 0 0 var(--clr);
 }
