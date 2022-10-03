@@ -103,7 +103,7 @@ transform: translateY(10px);
     height: 20px;
      background: transparent;
     border-top-right-radius: 20px;
-    box-shadow: 0 -10px 0 0 var(--clr);
+    box-shadow: 1px -10px 0 0 var(--clr);
 }
 
 .indicator::after {
@@ -115,7 +115,7 @@ transform: translateY(10px);
     height: 20px;
      background: transparent;
     border-top-left-radius: 22px;
-    box-shadow: 0 -10px 0 0 var(--clr);
+    box-shadow: -1px -10px 0 0 var(--clr);
 }
 
 
