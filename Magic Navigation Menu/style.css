@@ -82,3 +82,13 @@ body{
 opacity: 1;
 transform: translateY(10px);
 }
+
+.indicator{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #29fd53;
+    border-radius: 50%;
+    border: 6px solid var(--clr);
+    transition: 0.5s;
+}
